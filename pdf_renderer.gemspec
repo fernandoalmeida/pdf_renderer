@@ -6,4 +6,7 @@ Gem::Specification.new do |s|
   s.description = "PDF output using 'render :pdf => @object'."
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
   s.version = "0.0.1"
+  s.authors     = ["Fernando Almeida"]
+  s.email       = 'fernando@fernandoalmeida.net'
+  s.homepage    = 'http://fernandoalmeida.net'
 end

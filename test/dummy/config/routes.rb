@@ -1,4 +1,7 @@
 Dummy::Application.routes.draw do
+  match "/home(.:format)", :to => "home#index", :as => :home
+  match "/another(.:format)", :to => "home#another", :as => :another
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
